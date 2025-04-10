@@ -14,7 +14,7 @@ export default function StoreHeader({ title }: StoreHeaderProps) {
             <button onClick={() => navigate(-1)} className="z-10">
                 <ChevronLeft size={28} color="#D22751" />
             </button>
-            <h2 className="flex-1 text-center text-[32px] font-baloo font-bold text-[#D22751] -ml-6">
+            <h2 className="flex-1 text-center text-[26px] font-baloo font-black text-[#D22751] -ml-6">
                 {title}
             </h2>
             {/* 오른쪽 공간 확보용 빈 div */}

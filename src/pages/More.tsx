@@ -33,6 +33,15 @@ export default function More() {
                             if (label === 'STORE') {
                                 navigate('/store');
                             }
+                            if (label === 'Order History') {
+                                navigate('/order-history');
+                            }
+                            if (label === 'Notice') {
+                                navigate('/notice');
+                            }
+                            if (label === 'FAQ') {
+                                navigate('/faq');
+                            }
                         }}
                     >
                         <div className="flex items-center gap-4">
